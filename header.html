@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="headerstyle.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="main-header">
+        <div class="container-fluid">
+            <div class="nav-icon-word">
+                <a href="home.html">
+                    <img src="imgs/logo_word.svg">
+                </a>
+            </div>
+            <form class="d-md-flex d-none d-lg-none header-btn-input me-4">
+                <div class="input-group ">
+                    <a href="#" class="input-group-text text-decoration-none" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <input type="text" class=" search-input" placeholder="Search">
+                </div>
+            </form>
+            <button class="navbar-toggler" type="button" id="nav-btn" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-links">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-xs-flex d-md-none d-lg-flex header-btn-input me-4">
+                <div class="input-group">
+                    <a href="#" class="input-group-text text-decoration-none" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <input type="text" class="search-input" placeholder="Search">
+                </div>
+            </form>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

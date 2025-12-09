@@ -1,0 +1,19 @@
+.item-big-card{
+    padding-top:40px;
+}
+.item-big-card-img{
+    width:160px !important;
+}
+.item-big-card .card{
+    border-radius:20px;
+    box-shadow: 
+        0 2px 4px rgba(0,0,0,0.1),
+        0 8px 16px rgba(0,0,0,0.2);
+}
+.item-big-card .card .row{
+    padding:25px 0;
+}
+.item-big-card .card .price{
+    padding-top:10px;
+    border-top:1px solid black;
+}
